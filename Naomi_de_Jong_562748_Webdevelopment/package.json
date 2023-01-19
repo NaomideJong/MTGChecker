@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "predev": "ddev start",
+    "watch:css": "npx tailwindcss -i ./app/src/input.css -o ./app/public/style.css/ --watch",
+    "build:css": "npx tailwindcss -i ./app/src/input.css -o ./app/public/style.css/ --minify"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
+
